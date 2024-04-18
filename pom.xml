@@ -23,6 +23,7 @@
         <module>spring-boot_06-configuration-bean</module>
         <module>spring-boot_07-spring-application-properties</module>
         <module>spring-boot_08-controller-web-helloworld</module>
+        <module>spring-boot_09-thymeleaf</module>
     </modules>
     <properties>
         <java.version>21</java.version>
