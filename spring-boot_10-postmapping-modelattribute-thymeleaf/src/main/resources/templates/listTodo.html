@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" xmlns:th="thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toan to-do</title>
+    <!--css-->
+    <link href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <link th:href="@{/css/main.css}" rel="stylesheet" />
+
+    <!--js-->
+    <script th:src="@{/js/bootstrap.js}"></script>
+  </head>
+  <body>
+    <h1>Danh sách các việc cần làm:</h1>
+
+    <ul>
+      <li th:each="todo: *{todoList}">
+        <span th:text="*{todo.getTitle()}"></span>:
+        <span th:text="*{todo.getDetail()}"></span>
+      </li>
+    </ul>
+
+    <a th:href="@{/addTodo}" class="btn btn-success"> + Thêm công việc</a>
+  </body>
+</html>
