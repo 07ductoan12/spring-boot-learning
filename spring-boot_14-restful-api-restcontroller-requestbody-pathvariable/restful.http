@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/v1/todo
+Content-Type: application/json
+{
+    "title": "test1",
+    "detail": "test1"
+}
+
+GET http://localhost:8080/api/v1/todo
+
+PUT http://localhost:8080/api/v1/todo/0
+Content-Type: application/json
+{
+    "title": "test0",
+    "detail": "test0"
+}
+
+GET http://localhost:8080/api/v1/todo/1
+
+DELETE http://localhost:8080/api/v1/todo/1

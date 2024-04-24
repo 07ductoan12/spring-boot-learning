@@ -1,0 +1,9 @@
+toan:
+  email: 07ductoan12@gmail.com
+  googleAnalyticsId: U-xxxxx
+  authors:
+    - toan
+    - atom
+  exampleMap:
+    key1: hello
+    key2: world

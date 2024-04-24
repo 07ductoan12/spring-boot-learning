@@ -1,0 +1,7 @@
+toan.message.hello=Welcome to TodoApp
+toan.message.success=Add To-do Successfully!
+toan.message.failed=Add To-do Failed!
+
+toan.value.addTodo=Add To-do
+toan.value.viewListTodo=View To-do list
+toan.value.listTodo=To-do list

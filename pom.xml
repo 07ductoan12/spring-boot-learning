@@ -27,6 +27,11 @@
         <module>spring-boot_10-postmapping-modelattribute-thymeleaf</module>
         <module>spring-boot_11-jpa-mysql</module>
         <module>spring-boot_12-jpa-method-and-query-param</module>
+        <module>spring-boot_13-spring-boot-thymeleaf-mysql-web</module>
+        <module>spring-boot_14-restful-api-restcontroller-requestbody-pathvariable</module>
+        <module>spring-boot_15-controlleradvice-restcontrolleradvide-exceptionhandler-responsestatus</module>
+        <module>spring-boot_16-configurationproperties</module>
+        <module>spring-boot_17-spring-profiles</module>
     </modules>
     <properties>
         <java.version>21</java.version>
@@ -69,6 +74,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
     <build>
