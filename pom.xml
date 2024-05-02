@@ -32,6 +32,10 @@
         <module>spring-boot_15-controlleradvice-restcontrolleradvide-exceptionhandler-responsestatus</module>
         <module>spring-boot_16-configurationproperties</module>
         <module>spring-boot_17-spring-profiles</module>
+        <module>spring-boot_18-testing-in-spring-boot</module>
+        <module>spring-boot_19-eventlistener-async</module>
+        <module>spring-boot_20-conditional</module>
+        <module>spring-boot_21-custom-conditional</module>
     </modules>
     <properties>
         <java.version>21</java.version>
@@ -79,6 +83,17 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
