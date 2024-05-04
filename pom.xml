@@ -36,6 +36,7 @@
         <module>spring-boot_19-eventlistener-async</module>
         <module>spring-boot_20-conditional</module>
         <module>spring-boot_21-custom-conditional</module>
+        <module>spring-boot_22-lazy-annotation</module>
     </modules>
     <properties>
         <java.version>21</java.version>
