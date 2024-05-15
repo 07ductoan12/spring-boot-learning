@@ -37,6 +37,12 @@
         <module>spring-boot_20-conditional</module>
         <module>spring-boot_21-custom-conditional</module>
         <module>spring-boot_22-lazy-annotation</module>
+        <module>spring-boot_23-hibernate</module>
+        <module>spring-boot_24-jpa-hibernate-criteria</module>
+        <module>spring-boot_25-jpa-hibernate-one-to-one</module>
+        <module>spring-boot_26-jpa-hibernate-one-to-many</module>
+        <module>spring-boot_27-jpa-hibernate-many-to-many</module>
+        <module>spring-boot_28-jpa-hibernate-pageable</module>
     </modules>
     <properties>
         <java.version>21</java.version>
